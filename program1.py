@@ -28,7 +28,5 @@ def max_cyclic_substring_sum(S):
         max_sum = max(max_sum, current_sum)
     return max_sum
 
-
-# User input (exam style)
 S = input().strip()
 print(max_cyclic_substring_sum(S))
